@@ -1,0 +1,27 @@
+{
+  "name": "meilisearch-gatsby-v4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "meilisearch-gatsby-v4",
+  "author": "Tristan Peers",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "v1",
+    "@mdx-js/react": "v1",
+    "gatsby": "^4.9.3",
+    "gatsby-plugin-mdx": "^3.9.1",
+    "gatsby-plugin-meilisearch": "^0.1.1",
+    "gatsby-source-filesystem": "^4.9.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
